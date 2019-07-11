@@ -41,7 +41,6 @@ export interface InternalExtensionApi {
 		supportsDevTools: boolean;
 		hasTestGroupFix: boolean;
 		hasEvictBug: boolean;
-		webSupportsDebugging: boolean;
 	};
 	getLogHeader: () => string;
 	initialAnalysis: Promise<void>;
